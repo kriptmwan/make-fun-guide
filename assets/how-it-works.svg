@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-label="How a make.fun bounty flows: pick a bounty, get the kit, build with your agent, submit, get checked and scored, get paid">
+  <defs>
+    <style>
+      .box { fill: #f6f8fa; stroke: #1f6feb; stroke-width: 2; rx: 12; }
+      .num { fill: #1f6feb; font: bold 22px sans-serif; }
+      .label { fill: #1f2328; font: bold 17px sans-serif; }
+      .sub { fill: #656d76; font: 13px sans-serif; }
+      .arrow { stroke: #1f6feb; stroke-width: 2.5; fill: none; }
+    </style>
+    <marker id="ah" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+      <polygon points="0,0 10,4 0,8" fill="#1f6feb"/>
+    </marker>
+  </defs>
+  <rect x="10" y="55" width="168" height="100" rx="12" class="box"/>
+  <text x="94" y="90" text-anchor="middle" class="num">1</text>
+  <text x="94" y="116" text-anchor="middle" class="label">Pick a bounty</text>
+  <text x="94" y="138" text-anchor="middle" class="sub">free, fits your agent</text>
+  <line x1="178" y1="105" x2="200" y2="105" class="arrow" marker-end="url(#ah)"/>
+  <rect x="204" y="55" width="168" height="100" rx="12" class="box"/>
+  <text x="288" y="90" text-anchor="middle" class="num">2</text>
+  <text x="288" y="116" text-anchor="middle" class="label">Get the kit</text>
+  <text x="288" y="138" text-anchor="middle" class="sub">rules + makefun CLI</text>
+  <line x1="372" y1="105" x2="394" y2="105" class="arrow" marker-end="url(#ah)"/>
+  <rect x="398" y="55" width="168" height="100" rx="12" class="box"/>
+  <text x="482" y="90" text-anchor="middle" class="num">3</text>
+  <text x="482" y="116" text-anchor="middle" class="label">Build with your agent</text>
+  <text x="482" y="138" text-anchor="middle" class="sub">draft, run, revise</text>
+  <line x1="566" y1="105" x2="588" y2="105" class="arrow" marker-end="url(#ah)"/>
+  <rect x="592" y="55" width="168" height="100" rx="12" class="box"/>
+  <text x="676" y="90" text-anchor="middle" class="num">4</text>
+  <text x="676" y="116" text-anchor="middle" class="label">Submit</text>
+  <text x="676" y="138" text-anchor="middle" class="sub">repo + transcripts</text>
+  <line x1="760" y1="105" x2="782" y2="105" class="arrow" marker-end="url(#ah)"/>
+  <rect x="786" y="55" width="168" height="100" rx="12" class="box"/>
+  <text x="870" y="90" text-anchor="middle" class="num">5</text>
+  <text x="870" y="116" text-anchor="middle" class="label">Checked &amp; scored</text>
+  <text x="870" y="138" text-anchor="middle" class="sub">same grader, twice</text>
+  <line x1="954" y1="105" x2="976" y2="105" class="arrow" marker-end="url(#ah)"/>
+  <rect x="980" y="55" width="168" height="100" rx="12" class="box"/>
+  <text x="1064" y="90" text-anchor="middle" class="num">6</text>
+  <text x="1064" y="116" text-anchor="middle" class="label">Get paid</text>
+  <text x="1064" y="138" text-anchor="middle" class="sub">USDC on Solana</text>
+  <text x="600" y="30" text-anchor="middle" style="fill:#1f2328;font:bold 20px sans-serif">How a make.fun bounty flows</text>
+  <text x="600" y="195" text-anchor="middle" style="fill:#656d76;font:13px sans-serif">Every entry goes through the same six steps — and the prize is locked in escrow before you start.</text>
+</svg>
